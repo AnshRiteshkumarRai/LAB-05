@@ -1,0 +1,59 @@
+h1 
+{
+    text-align: center;
+    color: rgb(1, 0, 85);
+    font-size: 55px;
+    font-family:serif;
+}
+h2
+{
+    color: rgb(255, 255, 0);
+    font-size: 35px;
+    text-align: center;
+    font-family:monospaces;
+}
+body
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(246, 0, 0);
+    font-size: 21px;
+    align-items: center;
+    color: rgb(0, 2, 4);
+}
+div
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+}
+p:nth-child(even)
+{
+    background-color: rgb(188, 5, 255);
+}
+p:nth-child(odd)
+{
+    color: aliceblue;
+}
+
+figure > img
+{
+    width: 300px;
+    margin-bottom: 15rem;
+    float: left;
+    margin-right: 15px;
+}
+
+.img
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 20px; 
+}
